@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+    <body>
+        <h1 id="inicio">Primeiros passos com HTML</h1>
+  <hr />
+  <h2>Índice</h2>
+     <li><a href="#HTML">O que é <i>HTML</i>?</a></li>
+        <li><a href="#Clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#Servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#Web">O que são aplicações Web</a></li>
+        <li><a href="#entendendo">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencia">Links de referências</a></li>
+       
+<h2 id="HTML">O que é HTML</h2>
+    <small><a href="#inicio"> Voltar</a></small>
+    <p>HyperText Markup Language, é uma linguagem de marcação usada para criar páginas da web. É a espinha dorsal da maioria dos sites que você vê na internet. O HTML permite que os desenvolvedores criem documentos estruturados que podem ser interpretados por navegadores da web, como o Chrome, o Firefox e o Edge, para exibir conteúdo na tela.</p>
+        <blockquote><i><strong>Sendo as bases do HTML:</strong></i></blockquote>
+
+    <h3><strong>Linguagem de Marcação:</strong></h3>
+    <p>HTML é uma linguagem de marcação, o que significa que você usa tags (etiquetas) para marcar partes específicas do conteúdo em um documento. Essas tags fornecem informações sobre como o conteúdo deve ser exibido e organizado em uma página da web.</p>
+    
+    <h3><strong>Estrutura Hierárquica:</strong></h3>
+    <p>Um documento HTML é estruturado de forma hierárquica. Ele começa com um elemento raiz, que é < html >, e é dividido em duas partes principais: < head > e < body >. O < head > contém metadados, como o título da página e links para folhas de estilo (CSS), enquanto o < body > contém o conteúdo visível da página</p>
+
+    <h3><strong>Tags e Elementos:</strong></h3>
+    <p>As tags HTML são usadas para definir elementos na página. Por exemplo, a tag < p > é usada para criar parágrafos, a tag < h1 > define um cabeçalho de primeiro nível e a tag < a > cria links. Cada tag pode conter atributos, como o atributo "href" em uma tag < a > para especificar o destino do link.</p>
+    
+    <h3><strong>Aninhamento:</strong></h3>
+    <p>É possível aninhar elementos dentro de outros elementos. Por exemplo, você pode colocar um parágrafo (< p >) dentro de uma div (< div >) para criar uma estrutura mais complexa.</p>
+
+    <h3><strong>Renderização pelo Navegador:</strong></h3>
+    <p>Após criar um documento HTML com as tags e elementos adequados, você pode abri-lo em um navegador da web. O navegador interpreta o HTML e renderiza a página de acordo com as instruções fornecidas pelas tags. Isso resulta na exibição da página com texto, imagens, links e outros elementos.</p>
+    
+    <br> 
+
+<h2 id="Clients">O que são Clients (Clientes):</h2>
+    <small><a href="#inicio"> Voltar</a></small>
+<p>Dentro do universo do HTML, os "clients" são os aplicativos ou sistemas que os usuários finais utilizam para acessar e interagir com o conteúdo da web. Os clientes mais comuns são os navegadores da web, como o Google Chrome, Mozilla Firefox, Microsoft Edge e outros, que são usados para abrir e visualizar páginas da web. Os "clients" também podem ser aplicativos de dispositivos móveis ou outras ferramentas de software que acessam recursos da web.</p>
+
+    <blockquote><i><strong>Função dos Clients:</strong></i></blockquote>
+    <p>Os "clients" têm a responsabilidade de solicitar e interpretar o código HTML, bem como outros recursos (como folhas de estilo CSS, scripts JavaScript, imagens, etc.) de um servidor web. Vamos explorar suas funções principais:</p>
+
+    <h3><strong>Solicitação de Recursos: </strong></h3>
+    <p> Quando um usuário digita um endereço da web em um navegador ou acessa um aplicativo que se conecta à internet, o "client" envia uma solicitação ao servidor web correspondente. Essa solicitação é feita por meio do protocolo HTTP ou HTTPS e contém informações sobre qual recurso específico o "client" deseja, como uma página HTML.</p>
+
+    <h3><strong>Recebimento e Processamento: </strong></h3>
+    <p>Após receber a resposta do servidor, que inclui o código HTML e outros recursos, o "client" processa esses dados. Isso envolve a interpretação do código HTML para determinar como a página deve ser exibida, a aplicação de estilos CSS para formatar o conteúdo e a execução de scripts JavaScript para adicionar interatividade à página.</p>
+    
+    <h3><strong>Renderização da Página: </strong></h3>
+    <p>A última etapa é a renderização da página, na qual o "client" exibe o conteúdo da web na tela do dispositivo do usuário. Isso inclui a exibição de texto, imagens, links, formulários e outros elementos HTML conforme projetado pelo desenvolvedor.</p>
+
+    <br>
+
+<h2 id="Servers">O que são Servers (Servidores):</h2>
+    <small><a href="#inicio"> Voltar</a></small>
+    <p>os "servers" (servidores) são elementos fundamentais. Eles desempenham um papel crucial na entrega de páginas da web aos "clients" (clientes), como navegadores da web. Vamos entender melhor o que são servidores e qual é o seu papel no contexto do HTML.</p>
+    <blockquote><i><strong>Função dos Servers:</strong></i></blockquote>
+
+    <h3><strong>Definição: </strong></h3>
+    <p> Um servidor, em termos gerais, é um computador ou um sistema de computadores que armazena, processa e fornece recursos ou serviços para outros computadores, conhecidos como "clients". No contexto da web, um servidor web é um computador configurado especificamente para armazenar e disponibilizar páginas da web e outros recursos relacionados à web.</p>
+
+    <h3><strong>Função: </strong></h3>
+    <p>Um servidor web é responsável por receber solicitações dos clientes, geralmente por meio do protocolo HTTP (Hypertext Transfer Protocol), processar essas solicitações e enviar de volta os arquivos HTML, imagens, folhas de estilo CSS, scripts JavaScript e outros recursos necessários para exibir uma página da web no navegador do usuário.</p>
+
+    <h3><strong>Entrega de Conteúdo: </strong></h3>
+    <p>Os servidores são essenciais para a entrega de conteúdo HTML aos clientes. Quando um navegador faz uma solicitação para acessar uma página da web, ele envia essa solicitação ao servidor correspondente, que então envia de volta o código HTML e outros recursos necessários para a visualização da página.</p>
+
+    <h3><strong>Segurança do Conteúdo:</strong></h3>
+    <p>Além disso, os servidores também podem ser configurados para proteger o conteúdo sensível ou confidencial em páginas da web. Isso inclui o uso de protocolos de segurança, como HTTPS (HTTP Secure), para criptografar a comunicação entre o servidor e o cliente, garantindo assim que os dados do usuário sejam transmitidos com segurança.</p>
+
+<br>
+
+<h2 id=Web>O que são Aplicações Web:</h2>
+    <small><a href="#inicio"> Voltar</a></small>
+    <p>Aplicações web, também conhecidas como "web apps" ou "aplicações baseadas na web", são programas de software projetados para serem acessados e utilizados por meio de navegadores da web. Em outras palavras, são aplicações que funcionam na internet e não precisam ser instaladas diretamente no dispositivo do usuário. Em vez disso, os usuários podem acessar essas aplicações por meio de um navegador da web, como o Chrome ou o Firefox, usando uma conexão à internet.</p>    
+    <blockquote><i><strong>Função das aplicações Web:</strong></i></blockquote>
+
+    <h3><strong>Acesso via Navegador: </strong></h3>
+    <p>Uma das características distintivas das aplicações web é que elas são executadas em um servidor remoto e são acessadas por meio de um navegador da web. Isso significa que os usuários podem utilizá-las em diversos dispositivos, como computadores, tablets e smartphones, desde que tenham acesso à internet.</p>
+
+    <h3><strong>Interatividade: </strong></h3>
+    <p>Aplicações web podem ser altamente interativas e oferecer uma ampla gama de funcionalidades, desde simples formulários de inscrição até aplicações complexas de comércio eletrônico e redes sociais. Elas geralmente incorporam elementos de HTML, CSS e JavaScript para fornecer uma experiência de usuário rica e dinâmica.</p>
+
+    <h3><strong>Atualizações Simplificadas: </strong></h3>
+    <p> Uma das vantagens das aplicações web é que as atualizações de software podem ser implementadas no servidor, sem a necessidade de atualizações manuais por parte dos usuários. Isso garante que todos os usuários sempre tenham acesso à versão mais recente da aplicação.</p>
+
+    <h3><strong>Acesso Ubíquo: </strong></h3>
+    <p>As aplicações web permitem que os usuários acessem seus dados e funcionalidades de qualquer lugar com acesso à internet. Isso é conveniente, mas também representa desafios significativos de segurança cibernética.</p>
+    
+<br>
+
+<h2 id="entendendo">Entendendo a Diferença entre Listas Ordenadas e Não Ordenadas</h2>
+    <small><a href="#inicio"> Voltar</a></small>  
+    <p>Em HTML, listas são uma forma eficaz de organizar informações em seu conteúdo da web. Existem dois tipos principais de listas: listas ordenadas e listas não ordenadas. Vamos explorar suas diferenças.</p>
+    <blockquote><i><strong>Função das aplicações Web:</strong></i></blockquote>
+
+    <h3>Listas Ordenadas (`<code>&lt;ol&gt;</code>`):</h3>
+
+    <ul>
+        <li><strong>Propósito:</strong> Listas ordenadas são usadas quando a ordem dos itens na lista é importante. Elas indicam uma sequência específica em que os itens devem ser lidos ou seguidos.</li>
+        <li><strong>Marcadores:</strong> Os itens em listas ordenadas são automaticamente numerados em ordem crescente, começando por 1 por padrão. Você pode personalizar o estilo dos marcadores usando CSS, mas a numeração é intrínseca.</li>
+        <li><strong>Exemplo:</strong></li>
+    </ul>
+
+    <pre>
+        &lt;ol&gt;
+            &lt;li&gt;Primeiro item&lt;/li&gt;
+            &lt;li&gt;Segundo item&lt;/li&gt;
+            &lt;li&gt;Terceiro item&lt;/li&gt;
+        &lt;/ol&gt;
+    </pre>
+
+    <h3>Listas Não Ordenadas (`<code>&lt;ul&gt;</code>`):</h3>
+
+    <ul>
+        <li><strong>Propósito:</strong> Listas não ordenadas são usadas quando a ordem dos itens não importa. Elas apresentam uma coleção de itens sem uma sequência específica.</li>
+        <li><strong>Marcadores:</strong> Os itens em listas não ordenadas são marcados com símbolos, como pontos, círculos ou quadrados. O marcador padrão é um ponto, mas você pode personalizá-lo com CSS.</li>
+        <li><strong>Exemplo:</strong></li>
+    </ul>
+
+    <pre>
+        &lt;ul&gt;
+            &lt;li&gt;Maçã&lt;/li&gt;
+            &lt;li&gt;Pera&lt;/li&gt;
+            &lt;li&gt;Uva&lt;/li&gt;
+        &lt;/ul&gt;
+    </pre>
+
+    <p><strong>Resumindo a Diferença:</strong></p>
+
+    <ul>
+        <li><strong>Listas Ordenadas:</strong> Use quando a ordem dos itens é significativa e precisa ser mantida. Os itens são numerados automaticamente.</li>
+        <li><strong>Listas Não Ordenadas:</strong> Use quando a ordem dos itens não é importante, e os itens são marcados com símbolos.</li>
+    </ul>
+
+    <p>A escolha entre listas ordenadas e não ordenadas depende do contexto do seu conteúdo. Entender a diferença entre eles é fundamental para criar páginas da web bem estruturadas e significativas. Além disso, ao analisar e proteger sites contra ameaças cibernéticas, é importante compreender como esses elementos HTML são usados e como podem afetar a estrutura e a legibilidade do conteúdo da web.</p>
+
+
+<h2 id="referencia">Links de referências</h2>
+    
+    <a href="http://www.dio.me">Dio.me</a>
+    <br>
+    <small><a href="#inicio"> Voltar</a></small>
+
+</body>
+
+</html>
